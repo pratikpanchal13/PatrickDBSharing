@@ -16,9 +16,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        NotificationCenter.default.addObserver(self, selector: #selector(self.refreshDropboxList), name: NSNotification.Name(rawValue: "Dropboxlistrefresh"), object: nil)
+
+        
+    }
+    
+    func refreshDropboxList() {
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let dropboxVC = storyBoard.instantiateViewController(withIdentifier: "DropBoxListVC") as! DropBoxListVC
+        self.navigationController?.pushViewController(dropboxVC, animated: true)
+        
         
         
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,28 +39,59 @@ class ViewController: UIViewController {
     }
 
 
+    //----------------------------------------------------
+    //MARK: - For Authorization with DropBox
+    //----------------------------------------------------
+    
     @IBAction func btnLoginWithDropBox(_ sender: Any) {
 
-        self.myButtonInControllerPressed()   // For Authorized
+        self.linkToDropboxClicked()   // For Authorized
 
         
+        // Download to Data
+        client?.files.download(path: "/Pratik11")
+            .response { response, error in
+                if let response = response {
+                    let responseMetadata = response.0
+                    print(responseMetadata)
+                    let fileContents = response.1
+                    print(fileContents)
+                } else if let error = error {
+                    print(error)
+                }
+            }
+            .progress { progressData in
+                print(progressData)
+        }
     }
     
     
     
     @IBAction func btnShareData(_ sender: Any) {
         
-        self.uploadToDropbox()          // Share Data on DropBox
-
+//        self.uploadToDropbox()          // Share Data on DropBox
+        // Download a file
+        
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let dropboxVC = storyBoard.instantiateViewController(withIdentifier: "DropBoxListVC") as! DropBoxListVC
+        self.navigationController?.pushViewController(dropboxVC, animated: true)
+        
         
     }
+    
+    
+    
+    //----------------------------------------------------
+    //MARK: - For Upload Images to DropBox
+    //----------------------------------------------------
     
     @IBAction func btnShareImage(_ sender: Any) {
      
         Utility.sharedInstance.takeOrChoosePhoto(self) { (selectedImage) in
             
             print("Image is \(String(describing: selectedImage))")
-
             var currentTimeStamp = NSDate().timeIntervalSince1970.toString()
             let filename = "\(currentTimeStamp)_img.jpg"
             
@@ -62,7 +106,6 @@ class ViewController: UIViewController {
             fileManager.createFile(atPath: paths as String, contents: imageData, attributes: nil)
             
             
-            
             self.uploadToDropbox()          // Share Data on DropBox
 
             
@@ -70,16 +113,15 @@ class ViewController: UIViewController {
         }
     }
     
+   
+    
+    
     
    
     
     func uploadToDropbox() {
         
         let filename = UtilityUserDefault().getUDObject(KeyToReturnValye: "saveImgName") as! String
-        
-//        let tmpURL = NSURL(fileURLWithPath: NSTemporaryDirectory())
-//        let fileURL = tmpURL.appendingPathComponent("Pratik.jpeg")
-
         let fileManager = FileManager.default
         let imagePAth = (self.getDirectoryPath() as NSString).appendingPathComponent(filename)
         
@@ -88,21 +130,21 @@ class ViewController: UIViewController {
         
         if fileManager.fileExists(atPath: imagePAth){
 
-            
+            if let client = DropboxClientsManager.authorizedClient {
+                client.files.upload(path: "/Pratik11/\(filename)", mode: .overwrite, autorename: true, clientModified: NSDate() as Date, mute: false, input: url).response{ response, error in
+                    
+                    if let metadata = response {
+                        print("Uploaded file name: \(metadata.name)")
+                    } else {
+                        print(error!)
+                    }
+                }
+            }
+
         }else{
             print("No Image")
         }
         
-        if let client = DropboxClientsManager.authorizedClient {
-            client.files.upload(path: "/Pratik11/\(filename)", mode: .overwrite, autorename: true, clientModified: NSDate() as Date, mute: false, input: url).response{ response, error in
-                
-                if let metadata = response {
-                    print("Uploaded file name: \(metadata.name)")
-                } else {
-                    print(error!)
-                }
-            }
-        }
         
     }
     
@@ -114,13 +156,19 @@ class ViewController: UIViewController {
     }
     
     // For Authorization Check
-    func myButtonInControllerPressed() {
-        DropboxClientsManager.authorizeFromController(UIApplication.shared,
-                                                      controller: self,
-                                                      openURL: { (url: URL) -> Void in
-                                                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        })
+    func linkToDropboxClicked() {
 
+        if (DropboxClientsManager.authorizedClient == nil) {
+            //authorize a user
+            DropboxClientsManager.authorizeFromController(UIApplication.shared,
+                                                          controller: self,
+                                                          openURL: { (url: URL) -> Void in
+                                                            UIApplication.shared.openURL(url)
+            })
+        } else {
+            print("User is already authorized!")
+            self.refreshDropboxList()
+        }
     }
    
     

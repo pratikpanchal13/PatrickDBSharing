@@ -4,33 +4,75 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PatrickDBSharing/ViewController.swift"
-            timestampString = "513753250.645805"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "btnShareImage(_:)"
-            landmarkType = "7">
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PatrickDBSharing/ViewController.swift"
-            timestampString = "513752467.582699"
+            timestampString = "513768421.855471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "btnShareImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.ViewController.btnShareImage (Any) -&gt; ()"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/ViewController.swift"
+                  timestampString = "513770173.79949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.ViewController.(btnShareImage (Any) -&gt; ()).(closure #1)"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/ViewController.swift"
+                  timestampString = "513770173.803037"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatrickDBSharing/ViewController.swift"
+            timestampString = "513768421.855471"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "btnShareData(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -41,30 +83,222 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PatrickDBSharing/ViewController.swift"
-            timestampString = "513753294.344442"
+            filePath = "PatrickDBSharing/DropBoxListVC.swift"
+            timestampString = "513768277.56565"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "uploadToDropbox()"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "showDropboxData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PatrickDBSharing/ViewController.swift"
-            timestampString = "513753304.102713"
+            filePath = "PatrickDBSharing/DropBoxListVC.swift"
+            timestampString = "513768277.56565"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "btnShareImage(_:)"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "showDropboxData()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.DropBoxListVC.showDropboxData () -&gt; ()"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/DropBoxListVC.swift"
+                  timestampString = "513770173.81896"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "73">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.DropBoxListVC.(showDropboxData () -&gt; ()).(closure #1)"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/DropBoxListVC.swift"
+                  timestampString = "513770173.82248"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatrickDBSharing/DropBoxListVC.swift"
+            timestampString = "513768277.56565"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "showDropboxData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.DropBoxListVC.showDropboxData () -&gt; ()"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/DropBoxListVC.swift"
+                  timestampString = "513770173.830399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "461">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.DropBoxListVC.(showDropboxData () -&gt; ()).(closure #2)"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/DropBoxListVC.swift"
+                  timestampString = "513770173.833792"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "139">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatrickDBSharing/DropBoxListVC.swift"
+            timestampString = "513768277.56565"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "showDropboxData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatrickDBSharing/DropBoxListVC.swift"
+            timestampString = "513768277.56565"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "showDropboxData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatrickDBSharing/DropBoxListVC.swift"
+            timestampString = "513768277.56565"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "showDropboxData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatrickDBSharing/FileViewerVC.swift"
+            timestampString = "513769125.088664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatrickDBSharing/FileViewerVC.swift"
+            timestampString = "513769138.913421"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.FileViewerVC.viewDidLoad () -&gt; ()"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/FileViewerVC.swift"
+                  timestampString = "513770173.868022"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatrickDBSharing.FileViewerVC.viewDidLoad () -&gt; ()"
+                  moduleName = "PatrickDBSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/DATA/PatrickDBSharing/PatrickDBSharing/FileViewerVC.swift"
+                  timestampString = "513770173.871532"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "121">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

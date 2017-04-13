@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6B4D13DB320BD72C59C64C56 /* Pods_PatrickDBSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0589317FC1B17445CCE6F69E /* Pods_PatrickDBSharingUITests.framework */; };
+		A92421921E9F739000F34F7E /* DropBoxListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92421911E9F739000F34F7E /* DropBoxListVC.swift */; };
+		A92421941E9F796F00F34F7E /* DropBoxListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92421931E9F796F00F34F7E /* DropBoxListingCell.swift */; };
+		A92421961E9F7CA700F34F7E /* FileViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92421951E9F7CA700F34F7E /* FileViewerVC.swift */; };
 		A931ABAD1E9F400300E00D16 /* UtilityUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931ABAC1E9F400200E00D16 /* UtilityUserDefault.swift */; };
 		A99BBAC61E9E381D0066C3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BBAC51E9E381D0066C3DF /* AppDelegate.swift */; };
 		A99BBAC81E9E381D0066C3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BBAC71E9E381D0066C3DF /* ViewController.swift */; };
@@ -49,6 +52,9 @@
 		6E2DAF2D84732EF77EE1D7D1 /* Pods-PatrickDBSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharingUITests/Pods-PatrickDBSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FA227A444FC70A0D2DD4593 /* Pods-PatrickDBSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharing/Pods-PatrickDBSharing.debug.xcconfig"; sourceTree = "<group>"; };
 		90A16CD72C27EB3577031A21 /* Pods_PatrickDBSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickDBSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92421911E9F739000F34F7E /* DropBoxListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxListVC.swift; sourceTree = "<group>"; };
+		A92421931E9F796F00F34F7E /* DropBoxListingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxListingCell.swift; sourceTree = "<group>"; };
+		A92421951E9F7CA700F34F7E /* FileViewerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileViewerVC.swift; sourceTree = "<group>"; };
 		A931ABAC1E9F400200E00D16 /* UtilityUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityUserDefault.swift; sourceTree = "<group>"; };
 		A99BBAC21E9E381D0066C3DF /* PatrickDBSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrickDBSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99BBAC51E9E381D0066C3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +148,9 @@
 				A99BBAF81E9E472A0066C3DF /* Pratik.jpeg */,
 				A99BBAC51E9E381D0066C3DF /* AppDelegate.swift */,
 				A99BBAC71E9E381D0066C3DF /* ViewController.swift */,
+				A92421911E9F739000F34F7E /* DropBoxListVC.swift */,
+				A92421931E9F796F00F34F7E /* DropBoxListingCell.swift */,
+				A92421951E9F7CA700F34F7E /* FileViewerVC.swift */,
 				A99BBAC91E9E381D0066C3DF /* Main.storyboard */,
 				A99BBACC1E9E381D0066C3DF /* Assets.xcassets */,
 				A99BBACE1E9E381D0066C3DF /* LaunchScreen.storyboard */,
@@ -465,6 +474,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99BBAC81E9E381D0066C3DF /* ViewController.swift in Sources */,
+				A92421941E9F796F00F34F7E /* DropBoxListingCell.swift in Sources */,
+				A92421961E9F7CA700F34F7E /* FileViewerVC.swift in Sources */,
+				A92421921E9F739000F34F7E /* DropBoxListVC.swift in Sources */,
 				A99BBAC61E9E381D0066C3DF /* AppDelegate.swift in Sources */,
 				A99BBAFB1E9E50150066C3DF /* Utility.swift in Sources */,
 				A931ABAD1E9F400300E00D16 /* UtilityUserDefault.swift in Sources */,
