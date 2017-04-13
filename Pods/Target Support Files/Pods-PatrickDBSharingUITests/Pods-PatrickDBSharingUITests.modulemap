@@ -1,0 +1,6 @@
+framework module Pods_PatrickDBSharingUITests {
+  umbrella header "Pods-PatrickDBSharingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

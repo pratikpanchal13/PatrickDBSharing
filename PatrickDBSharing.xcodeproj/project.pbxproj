@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4D13DB320BD72C59C64C56 /* Pods_PatrickDBSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0589317FC1B17445CCE6F69E /* Pods_PatrickDBSharingUITests.framework */; };
+		A931ABAD1E9F400300E00D16 /* UtilityUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931ABAC1E9F400200E00D16 /* UtilityUserDefault.swift */; };
+		A99BBAC61E9E381D0066C3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BBAC51E9E381D0066C3DF /* AppDelegate.swift */; };
+		A99BBAC81E9E381D0066C3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BBAC71E9E381D0066C3DF /* ViewController.swift */; };
+		A99BBACB1E9E381D0066C3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99BBAC91E9E381D0066C3DF /* Main.storyboard */; };
+		A99BBACD1E9E381D0066C3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99BBACC1E9E381D0066C3DF /* Assets.xcassets */; };
+		A99BBAD01E9E381D0066C3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99BBACE1E9E381D0066C3DF /* LaunchScreen.storyboard */; };
+		A99BBADB1E9E381D0066C3DF /* PatrickDBSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BBADA1E9E381D0066C3DF /* PatrickDBSharingTests.swift */; };
+		A99BBAE61E9E381D0066C3DF /* PatrickDBSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BBAE51E9E381D0066C3DF /* PatrickDBSharingUITests.swift */; };
+		A99BBAF51E9E38950066C3DF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99BBAF41E9E38950066C3DF /* Security.framework */; };
+		A99BBAF71E9E389D0066C3DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99BBAF61E9E389D0066C3DF /* QuartzCore.framework */; };
+		A99BBAF91E9E472A0066C3DF /* Pratik.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A99BBAF81E9E472A0066C3DF /* Pratik.jpeg */; };
+		A99BBAFB1E9E50150066C3DF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99BBAFA1E9E50150066C3DF /* Utility.swift */; };
+		B3DC2450EADB47C7656DD419 /* Pods_PatrickDBSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A16CD72C27EB3577031A21 /* Pods_PatrickDBSharing.framework */; };
+		F6E3052D61ECBD47E0006CBA /* Pods_PatrickDBSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A542EFCD9D125AC3FF070B2 /* Pods_PatrickDBSharingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99BBAD71E9E381D0066C3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99BBABA1E9E381D0066C3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99BBAC11E9E381D0066C3DF;
+			remoteInfo = PatrickDBSharing;
+		};
+		A99BBAE21E9E381D0066C3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99BBABA1E9E381D0066C3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99BBAC11E9E381D0066C3DF;
+			remoteInfo = PatrickDBSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0589317FC1B17445CCE6F69E /* Pods_PatrickDBSharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickDBSharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A542EFCD9D125AC3FF070B2 /* Pods_PatrickDBSharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickDBSharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D785FFE8C076F416F70CE2F /* Pods-PatrickDBSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharing/Pods-PatrickDBSharing.release.xcconfig"; sourceTree = "<group>"; };
+		53A40516E3FD17635C6B64D6 /* Pods-PatrickDBSharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharingTests/Pods-PatrickDBSharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E2DAF2D84732EF77EE1D7D1 /* Pods-PatrickDBSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharingUITests/Pods-PatrickDBSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FA227A444FC70A0D2DD4593 /* Pods-PatrickDBSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharing/Pods-PatrickDBSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		90A16CD72C27EB3577031A21 /* Pods_PatrickDBSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickDBSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A931ABAC1E9F400200E00D16 /* UtilityUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityUserDefault.swift; sourceTree = "<group>"; };
+		A99BBAC21E9E381D0066C3DF /* PatrickDBSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrickDBSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99BBAC51E9E381D0066C3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A99BBAC71E9E381D0066C3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A99BBACA1E9E381D0066C3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A99BBACC1E9E381D0066C3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A99BBACF1E9E381D0066C3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A99BBAD11E9E381D0066C3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99BBAD61E9E381D0066C3DF /* PatrickDBSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatrickDBSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99BBADA1E9E381D0066C3DF /* PatrickDBSharingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrickDBSharingTests.swift; sourceTree = "<group>"; };
+		A99BBADC1E9E381D0066C3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99BBAE11E9E381D0066C3DF /* PatrickDBSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatrickDBSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99BBAE51E9E381D0066C3DF /* PatrickDBSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrickDBSharingUITests.swift; sourceTree = "<group>"; };
+		A99BBAE71E9E381D0066C3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99BBAF41E9E38950066C3DF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A99BBAF61E9E389D0066C3DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A99BBAF81E9E472A0066C3DF /* Pratik.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pratik.jpeg; sourceTree = "<group>"; };
+		A99BBAFA1E9E50150066C3DF /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AC6600A691DF82A51F7FB138 /* Pods-PatrickDBSharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharingUITests/Pods-PatrickDBSharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF98EDCC98051E845FCEE7C0 /* Pods-PatrickDBSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickDBSharingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickDBSharingTests/Pods-PatrickDBSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99BBABF1E9E381D0066C3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99BBAF71E9E389D0066C3DF /* QuartzCore.framework in Frameworks */,
+				A99BBAF51E9E38950066C3DF /* Security.framework in Frameworks */,
+				B3DC2450EADB47C7656DD419 /* Pods_PatrickDBSharing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99BBAD31E9E381D0066C3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E3052D61ECBD47E0006CBA /* Pods_PatrickDBSharingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99BBADE1E9E381D0066C3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4D13DB320BD72C59C64C56 /* Pods_PatrickDBSharingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E63DFC82889947F81879939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA227A444FC70A0D2DD4593 /* Pods-PatrickDBSharing.debug.xcconfig */,
+				0D785FFE8C076F416F70CE2F /* Pods-PatrickDBSharing.release.xcconfig */,
+				AF98EDCC98051E845FCEE7C0 /* Pods-PatrickDBSharingTests.debug.xcconfig */,
+				53A40516E3FD17635C6B64D6 /* Pods-PatrickDBSharingTests.release.xcconfig */,
+				6E2DAF2D84732EF77EE1D7D1 /* Pods-PatrickDBSharingUITests.debug.xcconfig */,
+				AC6600A691DF82A51F7FB138 /* Pods-PatrickDBSharingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A99BBAB91E9E381D0066C3DF = {
+			isa = PBXGroup;
+			children = (
+				A99BBAC41E9E381D0066C3DF /* PatrickDBSharing */,
+				A99BBAD91E9E381D0066C3DF /* PatrickDBSharingTests */,
+				A99BBAE41E9E381D0066C3DF /* PatrickDBSharingUITests */,
+				A99BBAC31E9E381D0066C3DF /* Products */,
+				A99BBAF31E9E38950066C3DF /* Frameworks */,
+				9E63DFC82889947F81879939 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A99BBAC31E9E381D0066C3DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99BBAC21E9E381D0066C3DF /* PatrickDBSharing.app */,
+				A99BBAD61E9E381D0066C3DF /* PatrickDBSharingTests.xctest */,
+				A99BBAE11E9E381D0066C3DF /* PatrickDBSharingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99BBAC41E9E381D0066C3DF /* PatrickDBSharing */ = {
+			isa = PBXGroup;
+			children = (
+				A99BBAF81E9E472A0066C3DF /* Pratik.jpeg */,
+				A99BBAC51E9E381D0066C3DF /* AppDelegate.swift */,
+				A99BBAC71E9E381D0066C3DF /* ViewController.swift */,
+				A99BBAC91E9E381D0066C3DF /* Main.storyboard */,
+				A99BBACC1E9E381D0066C3DF /* Assets.xcassets */,
+				A99BBACE1E9E381D0066C3DF /* LaunchScreen.storyboard */,
+				A99BBAD11E9E381D0066C3DF /* Info.plist */,
+				A99BBAFA1E9E50150066C3DF /* Utility.swift */,
+				A931ABAC1E9F400200E00D16 /* UtilityUserDefault.swift */,
+			);
+			path = PatrickDBSharing;
+			sourceTree = "<group>";
+		};
+		A99BBAD91E9E381D0066C3DF /* PatrickDBSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A99BBADA1E9E381D0066C3DF /* PatrickDBSharingTests.swift */,
+				A99BBADC1E9E381D0066C3DF /* Info.plist */,
+			);
+			path = PatrickDBSharingTests;
+			sourceTree = "<group>";
+		};
+		A99BBAE41E9E381D0066C3DF /* PatrickDBSharingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A99BBAE51E9E381D0066C3DF /* PatrickDBSharingUITests.swift */,
+				A99BBAE71E9E381D0066C3DF /* Info.plist */,
+			);
+			path = PatrickDBSharingUITests;
+			sourceTree = "<group>";
+		};
+		A99BBAF31E9E38950066C3DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A99BBAF61E9E389D0066C3DF /* QuartzCore.framework */,
+				A99BBAF41E9E38950066C3DF /* Security.framework */,
+				90A16CD72C27EB3577031A21 /* Pods_PatrickDBSharing.framework */,
+				0A542EFCD9D125AC3FF070B2 /* Pods_PatrickDBSharingTests.framework */,
+				0589317FC1B17445CCE6F69E /* Pods_PatrickDBSharingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99BBAC11E9E381D0066C3DF /* PatrickDBSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99BBAEA1E9E381D0066C3DF /* Build configuration list for PBXNativeTarget "PatrickDBSharing" */;
+			buildPhases = (
+				9FF1F192C8BCE7EE8DBD837F /* [CP] Check Pods Manifest.lock */,
+				A99BBABE1E9E381D0066C3DF /* Sources */,
+				A99BBABF1E9E381D0066C3DF /* Frameworks */,
+				A99BBAC01E9E381D0066C3DF /* Resources */,
+				8367535DA63A7A1CB6FE639D /* [CP] Embed Pods Frameworks */,
+				9A0A078C14982016A1D6BFC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatrickDBSharing;
+			productName = PatrickDBSharing;
+			productReference = A99BBAC21E9E381D0066C3DF /* PatrickDBSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A99BBAD51E9E381D0066C3DF /* PatrickDBSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99BBAED1E9E381D0066C3DF /* Build configuration list for PBXNativeTarget "PatrickDBSharingTests" */;
+			buildPhases = (
+				4147DBF5F71A2302117238D3 /* [CP] Check Pods Manifest.lock */,
+				A99BBAD21E9E381D0066C3DF /* Sources */,
+				A99BBAD31E9E381D0066C3DF /* Frameworks */,
+				A99BBAD41E9E381D0066C3DF /* Resources */,
+				DB06EB3EEA50307CCB14BD26 /* [CP] Embed Pods Frameworks */,
+				83D95D9DB8B272E7D9506B84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99BBAD81E9E381D0066C3DF /* PBXTargetDependency */,
+			);
+			name = PatrickDBSharingTests;
+			productName = PatrickDBSharingTests;
+			productReference = A99BBAD61E9E381D0066C3DF /* PatrickDBSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A99BBAE01E9E381D0066C3DF /* PatrickDBSharingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99BBAF01E9E381D0066C3DF /* Build configuration list for PBXNativeTarget "PatrickDBSharingUITests" */;
+			buildPhases = (
+				6146BA1D83089662B7289C8D /* [CP] Check Pods Manifest.lock */,
+				A99BBADD1E9E381D0066C3DF /* Sources */,
+				A99BBADE1E9E381D0066C3DF /* Frameworks */,
+				A99BBADF1E9E381D0066C3DF /* Resources */,
+				1E8914B9C5A2B199EB130E94 /* [CP] Embed Pods Frameworks */,
+				DD6AAFDEB47FF338BFFC4D18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99BBAE31E9E381D0066C3DF /* PBXTargetDependency */,
+			);
+			name = PatrickDBSharingUITests;
+			productName = PatrickDBSharingUITests;
+			productReference = A99BBAE11E9E381D0066C3DF /* PatrickDBSharingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A99BBABA1E9E381D0066C3DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = indianic;
+				TargetAttributes = {
+					A99BBAC11E9E381D0066C3DF = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					A99BBAD51E9E381D0066C3DF = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A99BBAC11E9E381D0066C3DF;
+					};
+					A99BBAE01E9E381D0066C3DF = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A99BBAC11E9E381D0066C3DF;
+					};
+				};
+			};
+			buildConfigurationList = A99BBABD1E9E381D0066C3DF /* Build configuration list for PBXProject "PatrickDBSharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A99BBAB91E9E381D0066C3DF;
+			productRefGroup = A99BBAC31E9E381D0066C3DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99BBAC11E9E381D0066C3DF /* PatrickDBSharing */,
+				A99BBAD51E9E381D0066C3DF /* PatrickDBSharingTests */,
+				A99BBAE01E9E381D0066C3DF /* PatrickDBSharingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99BBAC01E9E381D0066C3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99BBAD01E9E381D0066C3DF /* LaunchScreen.storyboard in Resources */,
+				A99BBACD1E9E381D0066C3DF /* Assets.xcassets in Resources */,
+				A99BBAF91E9E472A0066C3DF /* Pratik.jpeg in Resources */,
+				A99BBACB1E9E381D0066C3DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99BBAD41E9E381D0066C3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99BBADF1E9E381D0066C3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8914B9C5A2B199EB130E94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PatrickDBSharingUITests/Pods-PatrickDBSharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4147DBF5F71A2302117238D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6146BA1D83089662B7289C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8367535DA63A7A1CB6FE639D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PatrickDBSharing/Pods-PatrickDBSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D95D9DB8B272E7D9506B84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PatrickDBSharingTests/Pods-PatrickDBSharingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0A078C14982016A1D6BFC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PatrickDBSharing/Pods-PatrickDBSharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF1F192C8BCE7EE8DBD837F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB06EB3EEA50307CCB14BD26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PatrickDBSharingTests/Pods-PatrickDBSharingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6AAFDEB47FF338BFFC4D18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PatrickDBSharingUITests/Pods-PatrickDBSharingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99BBABE1E9E381D0066C3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99BBAC81E9E381D0066C3DF /* ViewController.swift in Sources */,
+				A99BBAC61E9E381D0066C3DF /* AppDelegate.swift in Sources */,
+				A99BBAFB1E9E50150066C3DF /* Utility.swift in Sources */,
+				A931ABAD1E9F400300E00D16 /* UtilityUserDefault.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99BBAD21E9E381D0066C3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99BBADB1E9E381D0066C3DF /* PatrickDBSharingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99BBADD1E9E381D0066C3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99BBAE61E9E381D0066C3DF /* PatrickDBSharingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99BBAD81E9E381D0066C3DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99BBAC11E9E381D0066C3DF /* PatrickDBSharing */;
+			targetProxy = A99BBAD71E9E381D0066C3DF /* PBXContainerItemProxy */;
+		};
+		A99BBAE31E9E381D0066C3DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99BBAC11E9E381D0066C3DF /* PatrickDBSharing */;
+			targetProxy = A99BBAE21E9E381D0066C3DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A99BBAC91E9E381D0066C3DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99BBACA1E9E381D0066C3DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A99BBACE1E9E381D0066C3DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99BBACF1E9E381D0066C3DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99BBAE81E9E381D0066C3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A99BBAE91E9E381D0066C3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99BBAEB1E9E381D0066C3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA227A444FC70A0D2DD4593 /* Pods-PatrickDBSharing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PatrickDBSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PatrickDBSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A99BBAEC1E9E381D0066C3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D785FFE8C076F416F70CE2F /* Pods-PatrickDBSharing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PatrickDBSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PatrickDBSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A99BBAEE1E9E381D0066C3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF98EDCC98051E845FCEE7C0 /* Pods-PatrickDBSharingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PatrickDBSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PatrickDBSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatrickDBSharing.app/PatrickDBSharing";
+			};
+			name = Debug;
+		};
+		A99BBAEF1E9E381D0066C3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A40516E3FD17635C6B64D6 /* Pods-PatrickDBSharingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PatrickDBSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PatrickDBSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatrickDBSharing.app/PatrickDBSharing";
+			};
+			name = Release;
+		};
+		A99BBAF11E9E381D0066C3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2DAF2D84732EF77EE1D7D1 /* Pods-PatrickDBSharingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PatrickDBSharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PatrickDBSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PatrickDBSharing;
+			};
+			name = Debug;
+		};
+		A99BBAF21E9E381D0066C3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6600A691DF82A51F7FB138 /* Pods-PatrickDBSharingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PatrickDBSharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PatrickDBSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PatrickDBSharing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99BBABD1E9E381D0066C3DF /* Build configuration list for PBXProject "PatrickDBSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99BBAE81E9E381D0066C3DF /* Debug */,
+				A99BBAE91E9E381D0066C3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99BBAEA1E9E381D0066C3DF /* Build configuration list for PBXNativeTarget "PatrickDBSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99BBAEB1E9E381D0066C3DF /* Debug */,
+				A99BBAEC1E9E381D0066C3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99BBAED1E9E381D0066C3DF /* Build configuration list for PBXNativeTarget "PatrickDBSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99BBAEE1E9E381D0066C3DF /* Debug */,
+				A99BBAEF1E9E381D0066C3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99BBAF01E9E381D0066C3DF /* Build configuration list for PBXNativeTarget "PatrickDBSharingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99BBAF11E9E381D0066C3DF /* Debug */,
+				A99BBAF21E9E381D0066C3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A99BBABA1E9E381D0066C3DF /* Project object */;
+}
